@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<acl>
+		<resources>
+			<admin>
+				<children>
+					<system>
+						<children>
+							<config>
+								<children>
+									<pageslider>
+										<title>Page Slider</title>
+									</pageslider>
+								</children>
+							</config>
+						</children>
+					</system>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+	<menu>
+		<pageslider>
+			<title>Page Slider</title>
+			<sort_order>1000</sort_order>
+		
+			<children>
+				<items>
+					<title>Page Slider Manage</title>
+					<sort_order>1</sort_order>
+					<action>pageslider/adminhtml_pageslider</action>
+				</items>
+			</children>
+		</pageslider>
+	</menu>
+</config>

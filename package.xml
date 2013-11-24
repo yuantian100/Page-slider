@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Sicaty_Pageslider</name>
+    <version>1.0.0</version>
+    <stability>devel</stability>
+    <license uri="http://opensource.org/licenses/MIT">MIT License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Page slider</summary>
+    <description>Page slider</description>
+    <notes>Page slider</notes>
+    <authors><author><name>Sicaty</name><user>Sicaty</user><email>sicatty@yahoo.com</email></author></authors>
+    <date>2013-04-08</date>
+    <time>05:35:49</time>
+    <contents><target name="magelocal"><dir name="Sicaty"><dir name="Pageslider"><dir name="Block"><dir name="Adminhtml"><dir name="Grid"><dir name="Renderer"><file name="Pageslider.php" hash="220fcd27fb62566705e7387dc3a8ea9e"/></dir></dir><dir name="Pageslider"><dir name="Edit"><file name="Form.php" hash="a459acd9c47771ead8d8ebde2e4d6ca1"/><dir name="Tab"><file name="Form.php" hash="662c427b878cda28ffa376ca69e0aced"/></dir><file name="Tabs.php" hash="a590697a6f2e6a68dbef7d59c620b722"/></dir><file name="Edit.php" hash="60b397822751c113afc63828065fab2b"/><file name="Grid.php" hash="0120421c02e0b9b8de7f65485bf83556"/></dir><file name="Pageslider.php" hash="036b0f2870d5244b53c5eea77f2b0fdc"/></dir><file name="Pageslider.php" hash="ae498aff991017c38fcbc3e99bab834b"/></dir><dir name="Helper"><file name="Data.php" hash="5890681eef53a885ad2393661245049b"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Pageslider"><file name="Collection.php" hash="b267bf1f3a0ba548172f6d9b6485fd3c"/></dir><file name="Pageslider.php" hash="2f2f46569feb2beb66698db616135ad0"/></dir><file name="Pageslider.php" hash="bc1b974c1a5c904e3a3420a5529ed5d8"/><file name="Slidereffect.php" hash="345d2ed32759bd298478a7647d592926"/><file name="Status.php" hash="952476ffb244cce77f92394b36564bc6"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="PagesliderController.php" hash="d46c9187049ad2fb7ed757e9523e8d8a"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="489c58c1b6a7fd08ae786c439b4db2a9"/><file name="config.xml" hash="63f4f5949a75da7ae72a84891f3e2b1a"/><file name="system.xml" hash="c9b9f07ddd7e3125528b6d2705841ff4"/></dir><dir name="sql"><dir name="pageslider_setup"><file name="mysql4-install-1.0.0.php" hash="5a28af971d5c2991ca360e24977d1656"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="pageslider"><file name="pageslider.phtml" hash="053484d3a3641bbfa9ff85503152b4a1"/></dir></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="pageslider.xml" hash="d069edab7d8a209cae3c498ee25df8cd"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="pageslider"><dir name="css"><file name="style.css" hash="33dd5ea91fab622494e7c3cb0a8c3274"/></dir><dir name="images"><file name="next.png" hash="c3aa56ff50bf96207957e827250fc050"/><file name="prev.png" hash="155976f4049404a95051953930aa8692"/></dir><dir name="js"><file name="Bebas_400.font.js" hash="39e59c1209f0c0266b707e57ecdbe799"/><file name="cufon-yui.js" hash="8726083ae01662a7e966ba653899ff41"/><file name="jquery.easing.1.3.js" hash="a6f75e0c043a2a087837e5c113cc6f7a"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sicaty_Pageslider.xml" hash="c17601f0415b568cb5b8026f075466a2"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
